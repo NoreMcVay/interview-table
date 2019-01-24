@@ -1,0 +1,106 @@
+.container {
+    background-color:#F0F0F0;
+}
+
+.container_head {
+  background-color: #E0E0E0;
+}
+
+.col_header {
+    text-align: left;
+    font-family: Calibri,sans-serif;
+    font-size: 12px;
+    padding: 8px;
+}
+
+.input_field {
+    border-radius: 3px;
+}
+
+.col_header_short {
+    text-align: left;
+    font-family: Calibri,sans-serif;
+    font-size: 12px;
+    padding: 8px;
+}
+
+
+#submit {
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.cancel {
+    width: 100px;
+    height: 30px;
+    background-color:gray;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .list_cancel {
+      color:red;
+  }
+
+#popupSuccess {
+    background-color: rgb(154, 214, 138);
+    color: #202020;
+
+    border-radius: 5px;
+
+    width: 300px;
+    height: auto;
+
+    padding: 30px auto;
+    margin: 10px auto;
+
+    font-size: 25px;
+    font-family: Calibri;
+    text-align:center;
+}
+
+#main-table-body {
+    border: 1px  LightGray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#main-table {
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    border-collapse: collapse;
+
+    width: 75%;
+    height: 40px;
+
+    margin: 40px auto 10px auto;
+    padding: 10px;
+}
+
+tr {
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 0px;
+}
+
+td {
+    padding:5px;
+    background-color:white;
+}
+
+#add_new {
+    width: 75%;
+    height: 40px;
+    margin: 10px auto;
+}
+
+#no_entries_row_data {
+    background-color: pink;
+    color: red;
+    font-family: Calibri;
+    font-size: 15px;
+    text-align: center;
+}

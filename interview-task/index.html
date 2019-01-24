@@ -1,0 +1,78 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Code Challenge</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<!-- jQuery -->
+<script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script> 
+<!-- jQuery Configuration -->
+<script type="text/javascript" src="js/script.js"></script>        
+</head>
+
+<body class="container">
+  
+<!-- ############# wrapper start ############# -->
+    <div class="wrapper">
+        <table id="main-table">
+            <thead class="container_head">
+                <tr>
+                    <th class="btn_col"></th>
+                    <th class="col_header">Product Code</th>
+                    <th class="col_header">Product Name</th>
+                    <th class="col_header">Stock</th>
+                    <th class="col_header">Vendor</th>
+                    <th class="col_header_short">Status</th>
+                    <th class="col_header">Client</th>
+                </tr>
+            </thead>
+
+            <tbody id="main-table-body">  
+                <tr class="template_row">
+                    <td><a href="#" class="list_cancel" title="Delete Row"><i class="fas fa-times-circle"></i></a></td>
+                    <td><input type="text" class="input_field" id="productcode" name="" value=""></td>
+                    <td><input type="text" class="input_field" id="productname" name="" value=""></td>
+                    <td><input type="text" class="input_field" id="stock" name="" value=""></td>
+                    <td><input type="text" class="input_field" id="vendor" name="" value=""></td>
+                    <td>
+                        <select name="status-dropdown" id="input_select_field" class="label">
+                            <option value=""></option>
+                            <option value="green" style="background-color:green;">Success</option>
+                            <option value="red" style="background-color:red;">Wrong</option>
+                            <option value="orange" style="background-color:orange;">Error</option>
+                        </select>
+                    </td>
+                    <td><input type="text" class="input_field" id="client" name="" value=""></td>
+                </tr>
+            </tbody>
+
+            <tr class="no_entries_row">
+                <td id="no_entries_row_data">There are currently no data entries! Please Add New Row</td>
+            </tr>
+
+        </table>
+        <div id="add_new">        
+            <i class="fas fa-plus-square"></i><span class=""><a href="#">Add New Row</a></span>
+        </div>
+        <br class="clear">
+        
+        <!-- ############# save controls start ############# -->
+        <div style="text-align:center;">
+            <div class="action_btn">
+                <input name="submit" id="submit" type="submit" value="Save">
+                <input name="cancel" class="cancel" type="submit" value="Cancel">
+                <div id="popupSuccess">
+                    <p style="padding:30px;">Saved successfully!</p>
+                </div>
+            </div>
+        </div>
+        <!-- ############# save controls End ############# -->
+            
+    </div>
+
+<!-- ############# wrapper end ############# -->
+<p id="tr-node-count"></p>
+
+</body>
+</html>
